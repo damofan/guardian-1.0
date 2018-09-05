@@ -55,8 +55,10 @@ a:hover{color:#cb9903;text-decoration:none;}
 
 /*头部 */
 .header{position:relative;z-index:2;}
-.top{background-color: #2b2725;text-align: right;}
-.top a{color: #cb9903;font-size: 12px;}
+.top{background-color: #2b2725;text-align: right;color: #a57d05;font-size: 12px;line-height:30px;}
+.top a:hover{color: #cb9903}
+.top a{color: #a57d05}
+.top i{position: relative;top: 2px;}
 .nav-wrap{padding: 5px 0;}
 .logo img{display: block;height: 80px;}
 .nav{height:80px;line-height: 80px;}
