@@ -54,7 +54,7 @@ a:hover{color:#cb9903;text-decoration:none;}
 }
 
 /*头部 */
-.header{z-index:2;position: absolute;width: 100%;top: 0;left: 0;border-top: 6px solid #2b2725;box-shadow: 0px 5px 5px rgba(0, 0, 0, .08);}
+.header{border-top: 6px solid #2b2725;box-shadow: 0px 5px 5px rgba(0, 0, 0, .1);}
 .top{background-color: #2b2725;text-align: right;color: #a57d05;font-size: 12px;line-height:24px;height:24px;}
 .top a:hover{color: #cb9903}
 .top a{color: #a57d05;}
