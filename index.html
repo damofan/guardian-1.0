@@ -51,15 +51,9 @@
         </div>
     </header>
     <div class="slider" id="slider">
-        <div class="slider-item">
-            <img src="images/banner_1_all.jpg" alt="">
-        </div>
-        <div class="slider-item">
-            <img src="images/banner_2_ll.jpg" alt="">
-        </div>
-        <div class="slider-item">
-            <img src="images/banner_3_ww.jpg" alt="">
-        </div>
+        <div class="slider-item" style="background-image:url('images/banner_1_all.jpg')"></div>
+        <div class="slider-item" style="background-image:url('images/banner_2_ll.jpg')"></div>
+        <div class="slider-item" style="background-image:url('images/banner_3_ww.jpg')"></div>
     </div>
     <div class="home-service-wrap">
         <div class="home-service">
@@ -251,12 +245,14 @@
     <script>
         // banner
         $('#slider').slick({
-        autoplay: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-	    autoplaySpeed: 3000,
-		arrows: false,
-		dots: true
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000,
+            arrows: false,
+            dots: true,
+            touchMove: true,
+            swipe: true
 	    });
     </script>
 </body>
