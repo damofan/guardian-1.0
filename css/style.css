@@ -248,11 +248,12 @@ a:hover{color:#cb9903;text-decoration:none;}
     .footer-follow{display: none;}
     .footer{padding:20px;}
     .staff-table{width: 100%;}
-    .slider,.slider .slider-item{height: 300px;}
+    .slider,.slider .slider-item{height: 400px;}
 }
 @media (max-width: 568px){
     .staffs-wrap .staffs-wrap-item{width: 100%; margin: 0;margin-bottom: 20px}
     .staffs-wrap .staffs-wrap-item:nth-child(3n){margin: 0;margin-bottom: 20px}
+    .slider,.slider .slider-item{height: 300px;}
 }
 @media (max-width: 505px){
     .footer-info .footer-add-detail{margin-left: 0;padding-top: 20px;}
