@@ -76,8 +76,8 @@ a:hover{color:#cb9903;text-decoration:none;}
 @-webkit-keyframes icon-shake{0% {transform: translateY(0px);}15% {transform: translateY(-4px);}40% {transform: translateY(0px);}60% {transform: translateY(-3px);}80% {transform: translateY(0px);}90% {transform: translateY(-2px);}100% {transform: translateY(0px);}}
 
 /*轮播 */
-.slider{overflow:hidden;background:#ede1ca;position:relative;height: 400px;}
-.slider .slider-item{float: left;background-position: center;height: 400px;background-size: cover;}
+.slider{overflow:hidden;background:#ede1ca;position:relative;height: 600px;}
+.slider .slider-item{float: left;background-position: center;height: 600px;background-size: cover;}
 .slider .slider-item img{display: block;width: 100%}
 .slick-dots {
     position: absolute;
