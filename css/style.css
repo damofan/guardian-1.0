@@ -174,8 +174,7 @@ a:hover{color:#cb9903;text-decoration:none;}
 .footer-address p{opacity:.3;filter: alpha(opacity=30);font-size: 12px;}
 .footer-info .footer-add-detail{color:#fff;overflow:hidden;padding-top: 4px;}
 .footer-info .footer-add-detail{padding-top:45px;margin-left: 150px;}
-.footer-info .footer-add-detail p{color:#807e7e;}
-.footer-info .footer-add-detail p{line-height:24px;color: #c2bbbb;}
+.footer-info .footer-add-detail p{line-height:29px;color:#807e7e;}
 .footer-info .footer-add-detail p i{font-size:18px;color:#979797;margin-right: 5px;}
 .footer-follow {width:212px;text-align: center;background:url(../images/ft-video-bg.png) no-repeat;height:255px;padding:30px 10px 0;box-sizing:border-box;}
 .footer-follow a{overflow:hidden;margin-top:13px;display:block;float:left;width:50%;}
@@ -267,6 +266,9 @@ a:hover{color:#cb9903;text-decoration:none;}
     .home-service-wrap{background-attachment: fixed;}
     .home-service{background: none;}
     .staffs-wrap .staffs-wrap-item p{font-size: 10px;}
+    .footer .fl{float: none!important;}
+    .footer {text-align: center}
+    .footer-info .footer-add-detail{display: inline-block;text-align: left}
 }
 @media (max-width: 568px){
     .nav-wrap{padding: 5px 10px;}
@@ -278,4 +280,5 @@ a:hover{color:#cb9903;text-decoration:none;}
 @media (max-width: 505px){
     .footer-share{display: none;}
     .footer-info .footer-add-detail{margin-left: 0;padding-top: 20px;}
+    .footer-info .footer-add-detail p{line-height: 20px;font-size: 12px;}
 }
