@@ -246,10 +246,11 @@ a:hover{color:#cb9903;text-decoration:none;}
 @media (max-width: 856px){
     .home-service li i{font-size: 40px;line-height: 60px}
     .home-service li span{font-size: 14px}
-    .home-service li p{font-size: 10px;margin-top: 8px;}
     .home-service li+li{ margin: 1%;}
     .header{border-top-width: 2px;}
-    .home-service li{width: 48%; margin: 1%;height: 185px;}
+    .home-service li{width: 48%; margin: 1%;height: 165px;}
+    .home-service li a{display: block;}
+    .home-service li p{font-size: 8px;margin-top: 8px;}
     .news-wrap .news-wrap-item{width: 100%;margin-bottom: 20px;margin-right: 0;}
     .staffs-wrap .staffs-wrap-item{padding:15px 10px;height: 205px}
     .staffs-wrap .staffs-wrap-item p{font-size: 12px;line-height: 18px;text-align: center}
