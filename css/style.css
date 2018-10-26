@@ -284,4 +284,5 @@ a:hover{color:#cb9903;text-decoration:none;}
     .footer-share{display: none;}
     .footer-info .footer-add-detail{margin-left: 0;padding-top: 10px;}
     .footer-info .footer-add-detail p{line-height: 20px;font-size: 12px;}
+    .footer-info .footer-add-detail p i{font-size: 14px;}
 }
