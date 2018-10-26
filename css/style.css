@@ -249,11 +249,11 @@ a:hover{color:#cb9903;text-decoration:none;}
     .home-service li p{font-size: 10px;margin-top: 8px;}
     .home-service li+li{ margin: 1%;}
     .header{border-top-width: 2px;}
-    .home-service li{width: 48%; margin: 1%;height: 205px;}
+    .home-service li{width: 48%; margin: 1%;height: 185px;}
     .news-wrap .news-wrap-item{width: 100%;margin-bottom: 20px;margin-right: 0;}
     .staffs-wrap .staffs-wrap-item{padding:15px 10px;height: 205px}
-    .staffs-wrap .staffs-wrap-item p{font-size: 12px;line-height: 18px;position: relative;padding-left: 16px;}
-    .staffs-wrap .staffs-wrap-item i{margin-right: 2px;position: absolute;top: -2px;left: 0;font-size: 14px}
+    .staffs-wrap .staffs-wrap-item p{font-size: 12px;line-height: 18px;text-align: center}
+    .staffs-wrap .staffs-wrap-item i{margin-right: 2px;font-size: 14px}
     .staffs-wrap .staffs-wrap-item .staffs-wrap-item-pic{position: static;height: auto;width: 90%;margin: 0 auto;}
     .staffs-wrap .staffs-wrap-item .staffs-wrap-item-pic img{width: 100%;display: block;}
     .staffs-wrap .staffs-wrap-item h4{text-align: center;margin: 10px 0 15px;}
@@ -271,6 +271,7 @@ a:hover{color:#cb9903;text-decoration:none;}
     .nav-wrap{padding: 5px 10px;}
     .logo img{height: 30px;}
     .nav-weibo{margin-top: 0;}
+    .staffs-wrap .staffs-wrap-item{height: 195px;}
     .slider,.slider .slider-item{height: 200px;}
 }
 @media (max-width: 505px){
