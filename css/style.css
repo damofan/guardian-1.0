@@ -262,6 +262,9 @@ a:hover{color:#cb9903;text-decoration:none;}
 @media (max-width: 734px){
     .footer-follow{display: none;}
     .staff-table{width: 100%;}
+    .slick-dots{bottom: 8px;}
+    .slick-dots li{width: 8px;height: 8px;}
+    .slick-dots li.slick-active{width: 30px;}
     .slider,.slider .slider-item{height: 400px;}
     .home-service-wrap{background-attachment: fixed;}
     .home-service{background: none;}
@@ -279,6 +282,6 @@ a:hover{color:#cb9903;text-decoration:none;}
 }
 @media (max-width: 505px){
     .footer-share{display: none;}
-    .footer-info .footer-add-detail{margin-left: 0;padding-top: 20px;}
+    .footer-info .footer-add-detail{margin-left: 0;padding-top: 10px;}
     .footer-info .footer-add-detail p{line-height: 20px;font-size: 12px;}
 }
